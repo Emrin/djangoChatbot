@@ -1,0 +1,7 @@
+mkvirtualenv pyBot
+workon pyBot
+pip install django
+django-admin startproject djangoBot
+cd djangoBot
+python manage.py runserver
+

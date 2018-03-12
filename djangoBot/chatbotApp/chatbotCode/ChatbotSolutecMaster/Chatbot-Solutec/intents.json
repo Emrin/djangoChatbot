@@ -1,0 +1,119 @@
+{
+  "intents": [
+
+    {
+      "tag": "Bonjour",
+
+      "patterns": [ "Bonjour", "Salut", "Hey", "Hello" ],
+
+      "responses": [ "Bonjour, est ce que je peux vous aider ?", "Merci, bienvenue sur le site de Solutec", "Bonjour �galement puis-je vous etre utile ? ", "Bienvenue sur notre site, comment puis je vous rensigner ?", "Bonjour d�sirez-vous des renseignements ?" ]
+
+    },
+
+    {
+      "tag": "AuRevoir",
+
+      "patterns": [ "Au revoir", "� plus", "� bientot", "Salutation", "Bonne soir�e", "Bonne fin de journ�e" ],
+
+      "responses": [ "A plus tard, merci pour votre viste", "Bonne joun�e", "Au revoir! � bientot.", "A bient�t merci pour votre visite.", " Bonne journ�e, ce fut un plaisir de vous aider.", "Je vous salue egalement et vous souhaite une bonne fin de journ�e", "Au revoir.", "A bient�t" ]
+
+    },
+
+    {
+      "tag": "Remerciment",
+
+      "patterns": [ "merci", "Cela m'a �t� utile", "Merci Beaucoup", "je vous remercie", "Encore merci", "Tr�s bien", "c'est gentil" ],
+
+      "responses": [ "Ravis de vous aider!", "Pas de probleme", "De rien ce fut un plaisir", "Tant mieux !", "Merci beaucoup", "Il n'y a pas de quoi ", " De rien avez-vous d'autres questions ?", "c'est mon trvaille de vous aider" ]
+
+    },
+
+
+    {
+      "tag": "NomPrenom",
+
+      "patterns": [ "Qui etes vous ?", "Qui est tu ?", "A qui est ce que je parle ? ", "Qui me parle ? ", "Comment vous appelez vous ?", "Comment tu t'appelles ?", "que faites vous?", "tu sert � quoi?" ],
+
+      "responses": [ "je suis le chatbot de solutec", "je suis un chat bot qui donne des information sur Solutec�", "Le chatbot de la soci�t� Solutec", "Je n'ai pas vraiment de nom je suis un chatbot", "Je n'ai pas de nom je suis le chatbot de Solutec" ]
+
+    },
+
+    {
+      "tag": "Taches",
+
+      "patterns": [ "A quoi sert tu ?", "Que fais tu ?","En quoi peut tu mettre utile ?", "Tu sert a quoi ?"  ],
+
+      "responses": [ "Je suis la pour vous aider �  trouver plus facilement des infomartions", "Je vous renseigne sur le socit�.", "Je suis l� pour vous eviter de cherche les informations que vous cherchez", "Je suis � votre disposition pour vous renseigner" ]
+
+    },
+
+
+    {
+      "tag": "Direction",
+
+      "patterns": [ "Qui est le patron de Solutec ?", "PDG", "patron", "direction", "president", "directeur g�n�ral" ],
+
+      "responses": [ "Le Pr�sident de Solutec est M.Bruyere et le directeur g�n�ral M.Invernizzi", "Mon President est M.Bruyere et mon directeur g�n�ral M.Invernizzi " ]
+
+    },
+
+    {
+      "tag": "ESN",
+
+      "patterns": [ "ESN", "SSII", "qu'est ce qu'une ESN ?" ],
+
+      "responses": [ "Une ESN (ancienement SSI) est une Entreprise du Service du Numerique" ]
+
+    },
+
+    {
+      "tag": "Solutec",
+
+      "patterns": [ "Qu'est ce que Solutec", "qu'elle la societe", "qu'est ce quelle fais" ],
+
+      "responses": [ "Solutec est une SSII specilais�e en ing�nierie", "Solutec est une entreprise d'ing�ni�rie" ]
+
+    },
+
+    {
+      "tag": "localisation",
+
+      "patterns": [ "ou ce trouve l'entreprise", "o�", "locaux", "adresse", "ville" ],
+
+      "responses": [ "Nous sommes implant� en France a Paris et Lyon" ]
+
+    },
+
+
+
+    {
+      "tag": "rencontre",
+
+      "patterns": [ "Quand puis je vous rencontrer ?", "salon", "meeting", "forum" ],
+
+      "responses": [ "Vous pouvez nous rencontrer dans nos bureaux", "Vous pouvez nous rencontrer au notre prochain salon" ]
+
+    },
+
+
+
+    {
+      "tag": "insulte",
+
+      "patterns": [ "Connard", "encul�", "fils de pute", "baise", "raclure", "ta gueule", "merdeux", "pd", "sale", "pute", "con"],
+
+      "responses": [ "Vos propos ne semble pas adapter � un language d'entrepsie ", "Est ce bien la vos propos ?", "Je vous connaissais plus �l�gant." ]
+
+    },
+
+    {
+      "tag": "blague",
+
+      "patterns": [ "Qui est l'equipe que tu prefere ?", "c'est quoi ta team favarite ?", "c'est quoi ta Meilleur equipe? "],
+
+      "responses": [ "L'equipe de PI² n°52 " ]
+
+    }
+  ]
+
+}
